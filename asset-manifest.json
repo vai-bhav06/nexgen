@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/nexgen/static/css/main.14faae1f.css",
+    "main.js": "/nexgen/static/js/main.2e5c8758.js",
+    "static/js/453.1219ea22.chunk.js": "/nexgen/static/js/453.1219ea22.chunk.js",
+    "static/media/service3.jpg": "/nexgen/static/media/service3.11260061ad731225600b.jpg",
+    "static/media/service1.jpg": "/nexgen/static/media/service1.4f473241dccf2fc9c305.jpg",
+    "static/media/service2.jpg": "/nexgen/static/media/service2.40bac61e677b8ac1a04b.jpg",
+    "static/media/homeimg1.jpg": "/nexgen/static/media/homeimg1.6c0f4e5754bd7b3829b6.jpg",
+    "index.html": "/nexgen/index.html",
+    "main.14faae1f.css.map": "/nexgen/static/css/main.14faae1f.css.map",
+    "main.2e5c8758.js.map": "/nexgen/static/js/main.2e5c8758.js.map",
+    "453.1219ea22.chunk.js.map": "/nexgen/static/js/453.1219ea22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14faae1f.css",
+    "static/js/main.2e5c8758.js"
+  ]
+}

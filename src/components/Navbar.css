@@ -1,0 +1,118 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 1.5rem;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 999;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4f46e5;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+  
+  .nav-links a {
+    color: #333;
+   font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #4f46e5;
+  }
+  
+  .signup-btn {
+    padding: 0.8rem 2rem;
+    background: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .signup-btn:hover {
+    background: #009255;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    width: 25px;
+    height: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    z-index: 1001;
+  }
+  
+  .hamburger span {
+    height: 3px;
+    background: #333;
+    border-radius: 3px;
+    transition: 0.4s;
+    position: relative;
+  }
+  
+  /* Animate to X */
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -9px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .navbar{
+        padding: 1.5rem 1rem;
+    }
+    .hamburger {
+      display: flex;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 70%;
+      left: 0;
+      right: 0;
+      gap: 2rem;
+      background: #ffffff;
+      flex-direction: column;
+      transform: translateY(-100%);
+      opacity: 0;
+      pointer-events: none;
+      padding-top: 1rem;   /* internal space on top */
+      padding-bottom: 2rem; /* internal space on bottom */
+ 
+    }
+  
+    .nav-links.active {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+  }
+  
